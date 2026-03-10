@@ -2,14 +2,6 @@
 
 A beautiful, responsive web application that generates inspirational quotes with a modern glassmorphism design.
 
-## 🌟 Features
-
-- **Random Quote Generation**: Click a button to get random inspirational quotes
-- **Modern UI**: Glassmorphism design with smooth animations and hover effects
-- **Responsive Design**: Works perfectly on desktop, tablet, and mobile devices
-- **Backend Ready**: Includes PHP backend for dynamic quote management (optional)
-- **Fast & Lightweight**: No external dependencies, pure HTML/CSS/JavaScript
-
 ## 📁 Project Structure
 
 ```
@@ -33,24 +25,7 @@ Quote Generator App/
 
 1. **Clone or download** the project files
 2. **Open** `frontend/index.html` in your web browser
-3. **Click** the "GENERATE QUOTE" button to get random quotes!
-
-That's it! No server setup required.
-
-### Option 2: Run with Backend (Advanced)
-
-If you want dynamic quotes from a database:
-
-1. **Install XAMPP** (or any PHP/MySQL server)
-2. **Move project** to `C:\xampp\htdocs\quote-generator`
-3. **Start Apache and MySQL** in XAMPP control panel
-4. **Import database**:
-   - Open phpMyAdmin at `http://localhost/phpmyadmin`
-   - Create database `quote_generator`
-   - Import `database/quotes.sql`
-5. **Update credentials** in `backend/db.php` if needed
-6. **Access app** at `http://localhost/quote-generator/frontend/`
-
+3. **Click** the "GENERATE QUOTE" button to get random quote
 ## 🎨 Design Features
 
 - **Glassmorphism Effect**: Modern frosted glass appearance
@@ -66,11 +41,6 @@ If you want dynamic quotes from a database:
   - CSS3 (Flexbox, Grid, Animations)
   - Vanilla JavaScript (ES6+)
 
-- **Backend** (Optional):
-  - PHP 7+
-  - MySQL
-  - PDO for database connections
-
 ## 📱 Responsive Design
 
 The app is fully responsive and works on:
@@ -84,8 +54,6 @@ The app is fully responsive and works on:
 
 **Frontend Only**: Edit the `quotes` array in `frontend/script.js`
 
-**With Backend**: Add quotes to the MySQL database using `backend/quote.php`
-
 ### Changing Colors
 
 Edit the CSS variables and gradients in `frontend/style.css`:
@@ -97,13 +65,6 @@ Edit the CSS variables and gradients in `frontend/style.css`:
 ### Modifying Layout
 
 Adjust the container width, padding, and spacing in the CSS file.
-
-## 📄 API Endpoints (Backend)
-
-When using the PHP backend:
-
-- `GET /backend/get_quote.php` - Returns a random quote in JSON format
-
 Example response:
 ```json
 {
@@ -130,7 +91,5 @@ This project is open source and available under the MIT License.
 - Quotes sourced from famous personalities
 - Design inspired by modern web trends
 - Built with love for learning web development
-
----
-
+- 
 **Enjoy generating quotes! 🎉**
